@@ -1,2 +1,15 @@
+# If you are facing slow internet speed in your kali machine, you can overwrite your sources.list file with these below line of code.
+
+# Steps:-
+# 1. opern terminal
+# 2. sudo nano /etc/apt/sources.list
+# 3. delete all the lines from the file & copy paste the below lines
+# 4. ctrl+o
+# 5. Enter
+# 6. ctrl+x
+
+# now you can check the speed!!!!
+
+
 deb https://mirrors.ocf.berkeley.edu/kali/ kali-rolling main non-free contrib
 #deb-src https://mirrors.ocf.berkeley.edu/kali/ kali-rolling main non-free contrib
